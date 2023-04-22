@@ -19,6 +19,6 @@ while True:
             records = message_dict["Records"]
             for record in records:
                 print(record);
-                print(record["object"])
+                print(record["s3"]["object"])
         
 
