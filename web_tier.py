@@ -18,6 +18,7 @@ while True:
         if message_dict.get("Records") != None:
             records = message_dict["Records"]
             for record in records:
+                print(record);
                 print(record["object"])
         
 
