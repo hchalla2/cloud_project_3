@@ -11,7 +11,12 @@ while True:
         message_body = message["Body"]
         message_dict = json.loads(message_body);
         
+        delete_message(get_request_queue_url(), message['ReceiptHandle']);
         
         print(message_dict);
+
+        records = message_dict['Records']
+        for record in records:
+            print(record['object'])
         
 
