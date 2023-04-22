@@ -15,8 +15,9 @@ while True:
         
         print(message_dict);
 
-        records = message_dict['Records']
-        for record in records:
-            print(record['object'])
+        if message_dict.has_key('Records'):
+            records = message_dict['Records']
+            for record in records:
+                print(record['object'])
         
 
