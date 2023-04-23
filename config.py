@@ -1,7 +1,7 @@
 access_key = 'AKIA3TWA32MB2DMDYSG6';
 secret_key = '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'
 request_queue_url = 'https://sqs.us-east-1.amazonaws.com/798194651907/event-sqs-queue';
-response_queue_url = 'https://sqs.us-east-1.amazonaws.com/950049726145/response_queue_hsh';
+response_queue_url = 'https://sqs.us-east-1.amazonaws.com/798194651907/response_queue-hsh';
 
 def get_access_key():
     return access_key;
