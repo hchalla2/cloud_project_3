@@ -4,6 +4,7 @@ from sqs_util import *;
 from config import *;
 
 temp_dir = "";
+s3 = boto3.client('s3', aws_access_key_id='AKIA3TWA32MBQ54M44PY', aws_secret_access_key='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', region_name='us-east-1')
 
 while True:
 
