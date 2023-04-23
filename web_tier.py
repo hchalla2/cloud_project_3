@@ -3,7 +3,7 @@ import json
 from sqs_util import *;
 from config import *;
 
-lambda_client = boto3.client('lambda')
+lambda_client = boto3.client('lambda',  aws_access_key_id=get_access_key(), aws_secret_access_key=get_secret_key(), region_name='us-east-1')
 
 while True:
 
