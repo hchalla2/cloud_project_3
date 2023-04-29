@@ -1,5 +1,5 @@
-access_key = 'AKIA3TWA32MB2DMDYSG6';
-secret_key = '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'
+access_key = 'A';
+secret_key = 'S'
 request_queue_url = 'https://sqs.us-east-1.amazonaws.com/798194651907/event-sqs-queue';
 response_queue_url = 'https://sqs.us-east-1.amazonaws.com/798194651907/response_queue-hsh';
 
